@@ -1,0 +1,108 @@
+html {
+  font-size: 16px;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+  background-color: #fff;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+ }
+
+ *, 
+ *:before, 
+ *:after {
+    box-sizing: inherit;
+ }
+
+ body {
+    margin: 0;
+    background-color: aliceblue;
+ }
+
+ header {
+   position: sticky;
+   top: 0;
+   height: 60px;
+   background-color: #fff;  
+ }
+
+ header .container {
+    max-width: 960px;
+    height: inherit;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .user, 
+ .nav {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+ }
+
+ main,
+ footer {
+   max-width: 900px;
+   margin: 1rem auto;
+   padding: 20px;
+ }
+
+ .posts {
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+ }
+
+ .post {
+  background-color: #fff;
+ }
+
+ .post .post-info{
+  color: #333;
+  margin-bottom: 1rem;
+  padding: 20px;
+ }
+
+ .post a {
+  color: #000;
+  text-decoration: none;
+ }
+
+ .post .time{
+  font-size: 12px;
+ }
+
+ .post img {
+  width: 100%;
+ }
+
+ .post-text {
+  padding: 20px;
+ }
+
+ .post-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
+  padding-bottom: 20px;
+ }
+
+ footer {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 0;
+ }
+
+ .footer-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+ }
